@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    background-color:darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    min-height: 100vh;
+    color: #555555;
+}
+.content{
+    display: grid;
+    flex-direction: row;
+    border-radius: 50px;
+    margin: 50px;
+    padding: 5px;
+    width: 100%;
+    height: 1200px;
+    max-width: 1000px;
+    min-height: 1000px;
+    box-shadow: black;
+    box-sizing: border-box;
+    position: relative;
+grid-template-columns: 1fr 2fr;
+}
+.contentleft{
+    position: relative;
+    background-color: rgb(8, 9, 48);
+    width: 300px;
+    height: auto;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: black;
+    padding: 40px;
+    color: white;
+    box-shadow: 2px 2px rgb(109, 104, 104);
+    max-width: 1000px;
+    
+    
+}
+.contentright{
+    position:relative;
+    background-color:white;
+    width: 500px;
+    height: auto;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: black;
+   padding: 40px;
+   color: rgb(8, 9, 48);
+   box-shadow: 2px 2px rgb(109, 103, 103);
+   max-width: 1000px;
+     
+}
+.header{
+    width: 540px;
+    border-radius: 10px;
+    height: 150px;
+    background-color: rgb(8, 9, 48);
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+    box-shadow: 2px 2px rgb(43, 41, 41);
+}
+.ZURI{
+    border-radius: 20%;
+    height: 20vh;
+    width: 10vw;
+}
+.zuriname{
+    color: white;
+    font-weight: 300;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile .imgbox{
+    position: relative;
+  width: 200px;
+  border-radius: 20%;  
+  height: 200px;
+  overflow: hidden;
+  background-color: white;
+}
+.profile .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(2, 3, 20);
+
+}
+
+.cha{
+color: white;
+font-weight: 700;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.cha:last-child{
+    margin-bottom: 0;
+}
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.bol{
+    color: white;
+    display: flex;
+    font-family: 'poppins' sans-serif;
+    border: solid 5vh 5vw;
+    background-color: rgb(18, 19, 104);
+    font-size: larger;
+    font-weight: 300;
+    padding: 5px;
+}
+.semibold{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.content .title {
+    margin-bottom: 20px;
+}
+.content .contentleft .bold {
+    color: #fff;
+    position: relative;
+}
+.content .contentleft .regular{
+    color: #b1eaff;
+    position: relative;
+}
+.content .cvitem{
+    padding: 25px 0;
+    border-bottom: 2px solid;
+}
+.content .contentleft .cvitem:last-child{
+    border: 0px;
+}
+.content .contentleft ul li{
+display: flex;
+align-items: center;
+margin: 10px 0;
+position: relative;
+list-style: none;
+cursor: pointer;
+
+}
+.content .contentleft ul li:last-child{
+    margin-bottom: 0;
+}
+.content .contentleft ul li .icon{
+    justify-content: center;
+    align-items: center;
+
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: rgb(18, 19, 104);
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 16px;
+    position: relative;
+}
+.content .contentright ul li .iconl{
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: rgb(18, 19, 104);
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 32px;
+    position: relative;
+}
+.content .icon span,
+.content .contentleft .cvinterests ul li span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content .iconl span,
+.content .contentleft .cvinterests ul li span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content .contentleft ul li .data{
+    color:white;
+}
+.content .contentleft .cvskills ul li{
+    color:white;
+    justify-content: space-between;
+    }
+    .content .contentleft .cvskills ul li .skillname{
+        width: 25%;
+        font-size: 10px;
+    }
+
+
+.content .contentleft .cvskills ul li .skillprogress{
+    width: 60%;
+    margin: 0.5px;
+    height: 5px;
+    background: rgb(2, 3, 20);
+    position: relative;
+font-weight: 500;}
+
+    .content .contentleft .cvskills ul li .skillper{
+        width: 15%;
+    }
+    .content .contentleft .cvskills ul li .skillprogress span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background:rgb(18, 19, 104);
+        font-weight: 300;
+    }
+    
+    .content .contentright .bold{
+        color: rgb(18, 19, 104);
+font-weight: 300;
+    }
+   .content .contentright .cvwork ul,
+   .content .contentright .cveducation ul{
+padding-left: 40px;
+overflow: hidden;
+
+   }
+   .content .contentright ul li{
+       position: relative;
+   }
+   .content .contentright ul li .date{
+       font-size: 16px;
+       font-weight: 500;
+       margin-bottom: 15px;
+
+   }
+   .content .contentright ul li .info{
+       margin-bottom: 20px;
+
+   }
+   .content .contentright ul li:last-child .info{
+       margin-bottom: 0;
+   }
+.content .contentright .cvwork ul li::before,
+.content .contentright .cveducation ul:before{
+    content: "";
+    position: relative;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height:3px;
+   
+
+}
+.content .contentright .cvwork ul li:after,
+.content .contentright .cveducation ul li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    
+    background: rgb(18, 19, 104);
+}
+.content .contentright .cvinterests ul{
+    display: flex;
+    justify-content: space-between;
+}
+.content .contentright .cvinterests ul li{
+    width:80px;
+    height: 80px;
+    border: 2px solid rgb(18, 19, 104) ;
+    border-radius: 50%;
+    position: relative;
+    color: rgb(18, 19, 104);
+
+}
+
+.content .contentright .cvinterests ul li span{
+    font-size: 30px;
+
+}
+.content .contentright .cvinterests ul li:before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: -112px;
+    width: 110px;
+    height: 2px;
+    background:rgb(18, 19, 104);
+}
+.content .contentright .cvinterests ul li:last-child:before{
+    display: none;
+}
+@media (max-width: 1000px)
+{
+.content{
+margin: 10px;
+grid-template-columns: repeat(1,1fr);
+ }
+ .cvinterests ul{
+     grid-template: repeat(2,1fr);
+ }
+}
+@media (max-width: 1000px){
+    .cvitem .cveducation{
+        flex-direction: column;
+    }
+    .cvitem .cvwork{
+        flex-direction: column;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .cvitem .cveducation .date{
+margin-bottom: 5px;
+    }
+    .cvitem .cvwork .regular{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .cvinterests ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cvwork .info{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .content .contentleft{
+        width: 600px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .content .contentright{
+        width: 600px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .content .contentright .header span{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+       
+    }
+}
